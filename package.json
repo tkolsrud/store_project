@@ -1,0 +1,19 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "store app",
+  "main": "server.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/main.css -w"
+  },
+  "keywords": [
+    "filter",
+    "function",
+    "project"
+  ],
+  "author": "tkolsrud",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
