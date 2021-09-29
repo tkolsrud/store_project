@@ -17,8 +17,8 @@ body {
   background-image: url(https://www.trbimg.com/img-5bec7741/turbine/ct-books-biblioracle-1118); }
 
 .stripe {
-  height: .4rem;
-  background-color: #585858; }
+  height: .2rem;
+  background-color: rgba(146, 146, 146, 0.738); }
 
 .nav {
   display: flex;
