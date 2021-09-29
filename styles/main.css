@@ -11,7 +11,7 @@ html {
   display: flex;
   width: 100vw;
   height: 14rem;
-  background: #216fbc; }
+  background-image: linear-gradient(to bottom, #216fbc, #5392d1); }
 
 .nav__div--left {
   width: 50%;

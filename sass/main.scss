@@ -1,4 +1,5 @@
-$color-nav-background: rgb(33, 111, 188);
+$color-nav-background-primary: rgb(33, 111, 188);
+$color-nav-background-secondary: rgb(83, 146, 209);
 
 
 *,
@@ -16,7 +17,11 @@ html {
     display: flex;
     width: 100vw;
     height: 14rem;
-    background: $color-nav-background;
+    background-image: linear-gradient(
+        to bottom,
+        $color-nav-background-primary,
+        $color-nav-background-secondary
+    );
 }
 
 .nav__div--left {
