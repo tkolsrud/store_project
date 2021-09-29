@@ -55,7 +55,8 @@ body {
   font-size: 1.75rem;
   font-family: 'Raleway', serif;
   font-weight: 900;
-  color: #312e2e; }
+  color: #312e2e;
+  padding-right: 4rem; }
 
 .nav__link--right:active,
 .nav__link--logo:active {
