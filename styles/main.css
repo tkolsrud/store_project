@@ -22,10 +22,11 @@ body {
 
 .nav {
   display: flex;
-  height: 2.5rem;
+  height: 7rem;
   background: whitesmoke;
-  padding: 4rem 8rem 4rem 4rem;
-  box-shadow: 0 1rem 2rem rgba(117, 118, 149, 0.3); }
+  padding: 2rem 4rem 4rem 4rem;
+  box-shadow: 0 1rem 2rem rgba(117, 118, 149, 0.3);
+  flex-wrap: wrap; }
 
 .nav__div--left {
   width: 50%;
@@ -59,3 +60,8 @@ body {
 .nav__link--right:active,
 .nav__link--logo:active {
   transform: translateY(0.1rem); }
+
+.nav__div--border {
+  height: .1rem;
+  width: 100vw;
+  background-color: #b6b6b6; }

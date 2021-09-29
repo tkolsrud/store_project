@@ -37,10 +37,11 @@ body {
 
 .nav {
     display: flex;
-    height: 2.5rem;
+    height: 7rem;
     background:$color-background-primary;
-    padding: 4rem 8rem 4rem 4rem;
+    padding: 2rem 4rem 4rem 4rem;
     box-shadow: $box-shadow;
+    flex-wrap: wrap;
 }
 
 
@@ -57,6 +58,7 @@ body {
     justify-content: flex-end;
     text-decoration: none;
     align-items: center;
+    
     // margin-right: 4rem;
 }
 
@@ -86,4 +88,15 @@ body {
 .nav__link--right:active,
 .nav__link--logo:active {
     transform: translateY(.1rem);
+}
+
+// .break {
+//     flex-basis: 100%;
+// }
+
+.nav__div--border {
+    height: .1rem;
+    width: 100vw;
+    background-color: rgb(182, 182, 182);
+
 }
