@@ -1,5 +1,10 @@
-$color-nav-background-primary: rgb(33, 111, 188);
-$color-nav-background-secondary: rgb(83, 146, 209);
+
+$color-background-primary: whitesmoke;
+$color-logo: rgb(30, 29, 29);
+$color-nav-links: rgb(49, 46, 46);
+$color-nav-links-hover: rgb(49, 46, 46);
+
+$box-shadow: 0 1rem 2rem rgba(117, 118, 149, 0.3);
 
 
 *,
@@ -13,16 +18,31 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-background-primary;
+}
+
+.header__img {
+    height: 17rem;
+    background-image: url(https://www.trbimg.com/img-5bec7741/turbine/ct-books-biblioracle-1118);
+}
+
+.stripe {
+    height: .4rem;
+    background-color: rgb(88, 88, 88);
+}
+
+
 .nav {
     display: flex;
-    width: 100vw;
-    height: 14rem;
-    background-image: linear-gradient(
-        to bottom,
-        $color-nav-background-primary,
-        $color-nav-background-secondary
-    );
+    height: 2.5rem;
+    background:$color-background-primary;
+    padding: 4rem 8rem 4rem 4rem;
+    box-shadow: $box-shadow;
 }
+
 
 .nav__div--left {
     width: 50%;
@@ -37,6 +57,7 @@ html {
     justify-content: flex-end;
     text-decoration: none;
     align-items: center;
+    // margin-right: 4rem;
 }
 
 .nav__link--logo,
@@ -46,15 +67,23 @@ html {
 }
 
 .nav__link--logo {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Ultra', serif;
-    color: #F0EAD6;
-;
+    color: $color-logo;
 }
 
 .nav__link--right{
     font-size: 1.75rem;
     font-family: 'Raleway', serif;
-    font-weight: 800;
-    color: #e0c183;
+    font-weight: 900;
+    color: $color-nav-links;
+}
+
+// .nav__link--right:hover {
+    
+// }
+
+.nav__link--right:active,
+.nav__link--logo:active {
+    transform: translateY(.1rem);
 }

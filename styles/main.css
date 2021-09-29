@@ -7,11 +7,25 @@
 html {
   font-size: 62.5%; }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke; }
+
+.header__img {
+  height: 17rem;
+  background-image: url(https://www.trbimg.com/img-5bec7741/turbine/ct-books-biblioracle-1118); }
+
+.stripe {
+  height: .4rem;
+  background-color: #585858; }
+
 .nav {
   display: flex;
-  width: 100vw;
-  height: 14rem;
-  background-image: linear-gradient(to bottom, #216fbc, #5392d1); }
+  height: 2.5rem;
+  background: whitesmoke;
+  padding: 4rem 8rem 4rem 4rem;
+  box-shadow: 0 1rem 2rem rgba(117, 118, 149, 0.3); }
 
 .nav__div--left {
   width: 50%;
@@ -32,12 +46,16 @@ html {
   text-decoration: none; }
 
 .nav__link--logo {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: 'Ultra', serif;
-  color: #F0EAD6; }
+  color: #1e1d1d; }
 
 .nav__link--right {
   font-size: 1.75rem;
   font-family: 'Raleway', serif;
-  font-weight: 800;
-  color: #e0c183; }
+  font-weight: 900;
+  color: #312e2e; }
+
+.nav__link--right:active,
+.nav__link--logo:active {
+  transform: translateY(0.1rem); }
